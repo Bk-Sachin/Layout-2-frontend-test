@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMD Demolition & Asbestos Removal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- css_local -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Splide -->
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-wrapper d-flex justify-content-between align-items-center">
+                <a href="index.html" class="nav-logo">
+                    <img src="./assets/logo.png" alt="KMD Demolition & Asbestos Removal" class="logo">
+                </a>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="container">
+                <div class="mobile-menu-content">
+                    <!-- Navigation Links -->
+                    <div class="nav-links" id="nav-links">
+                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#about" class="nav-link">About Us</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </div>
+                    <!-- Contact Info (Mobile) -->
+                    <div class="mobile-contact-info">
+                        <a href="mailto:kmddemo210@gmail.com" class="mobile-contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>kmddemo210@gmail.com</span>
+                        </a>
+                        <a href="tel:0478517210" class="mobile-contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>0478 517 210</span>
+                        </a>
+                        <div class="mobile-contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Campsie 2194 NSW</span>
+                        </div>
+                        <a href="#quote" class="btn get-quote-btn mobile-quote-btn">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Desktop Top Bar (hidden on mobile) -->
+    <div class="top-bar d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-4 contact-info mb-2 mb-md-0">
+                            <i class="fa-solid fa-envelope"></i> Email: kmddemo210@gmail.com
+                        </div>
+                        <div class="col-md-4 contact-info mb-2 mb-md-0">
+                            <i class="fa-solid fa-phone"></i> Phone: 0478 517 210
+                        </div>
+                        <div class="col-md-4 contact-info">
+                            <i class="fa-solid fa-location-dot"></i> Address: Campsie 2194 NSW
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-3 text-end">
+                    <a href="#quote" class="btn get-quote-btn">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Hero Section with Splide Carousel -->
+    <div class="hero-section" id="home">
+        <!-- Splide Carousel -->
+        <section id="image-carousel" class="splide" aria-label="Demolition Projects">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="./assets/demo-1.jpg" alt="Demolition Project 1">
+                        <div class="slide-overlay"></div>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/demo-2.jpg" alt="Demolition Project 2">
+                        <div class="slide-overlay"></div>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/demo-3.jpg" alt="Demolition Project 3">
+                        <div class="slide-overlay"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Hero Content (Fixed on top of carousel) -->
+        <div class="hero-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="hero-content">
+                            <h1>Asbestos Removal & Demolition</h1>
+                            <p>With over 5 years of experience our team is qualified to take on projects of all sizes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services-section py-5" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="services-grid">
+                        <div class="row g-4">
+                            <div class="col-md-4 text-center">
+                                <div class="service-item">
+                                    <i class="fas fa-hammer service-icon"></i>
+                                    <h4>Demolition</h4>
+                                    <p>KMD Demolition & Asbestos Removal offers an outstanding level of service when it comes to our demolition projects</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="service-item">
+                                    <i class="fas fa-hard-hat service-icon"></i>
+                                    <h4>Asbestos Removal</h4>
+                                    <p>If your home has asbestos in it, it can be a threat to yours and your family's health. Make sure you are protected from asbestos exposure.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="service-item">
+                                    <i class="fas fa-tools service-icon"></i>
+                                    <h4>Stripouts</h4>
+                                    <p>Feel safe and secure knowing that you are dealing with professional "strippers". You will find our crews easy to work with, very friendly.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="service-item">
+                                    <i class="fas fa-truck service-icon"></i>
+                                    <h4>Asbestos Pickup</h4>
+                                    <p>We understand the huge health risks that the presence of asbestos presents. Your safety is our number one priority.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="service-item">
+                                    <i class="fas fa-dumpster service-icon"></i>
+                                    <h4>Rubbish Removal</h4>
+                                    <p>We understand the huge health risks that the presence of asbestos presents. Your safety is our number one priority.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="service-item">
+                                    <i class="fas fa-clipboard-check service-icon"></i>
+                                    <h4>Site Clearances</h4>
+                                    <p>Our customers, whether homeowners, builders, insurers or councils, all have a problem that requires a specialist solution.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us-section" id="about">
+        <div class="about-wrapper">
+            <div class="about-text">
+                <div class="about-header">
+                    <h2>About Us</h2>
+                    <div class="accent-line"></div>
+                </div>
+                <div class="about-content">
+                    <p class="lead-text">
+                        With over 5 years of experience, KMD Demolition & Asbestos Removal stands as your trusted partner in professional demolition and safe asbestos management.
+                    </p>
+                    <div class="about-details">
+                        <p>
+                            We are dedicated to meeting the needs of our clients by providing superior services and finalising all projects on time and within budget. When experience counts and you need trusted professional advice, we're the go-to experts.
+                        </p>
+                        <p>
+                            Our specialized team is committed to the safe removal and replacement of asbestos-containing materials, utilizing environmentally safe disposal methods for all hazardous materials.
+                        </p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Licensed & Certified</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>5+ Years Experience</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Safety Assured</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-container">
+                    <img src="./assets/demo-4.jpg" alt="Demolition Project">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+  
+  <!-- Gallery Section -->
+  <section class="gallery-section text-center py-5">
+    <h3 class="mb-4">Our Gallery</h3>
+    <div class="container">
+      <div class="row g-3">
+        <!-- Repeat this block for 8 images -->
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-1.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-2.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-3.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-4.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-5.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-6.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-2.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/demo-1.jpg" class="img-fluid" alt="Gallery Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials Section -->
+<section class="testimonials-section text-white text-center d-flex align-items-center justify-content-center">
+    <div class="testimonial-content p-4">
+      <h3>Testimonials</h3>
+      <p class="testimonial-text">
+        I just wanted to let you know that we think you have done a fantastic job. It looks great.
+        You are very professional in your work and very affordable too, which is a bonus.
+      </p>
+      <strong class="testimonial-author">James Wilson</strong>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section class="contact-section py-5">
+    <div class="container">
+      <h3 class="text-center mb-4">Send Us A Message</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./assets/demo-5.jpg" class="img-fluid" alt="Demolition Photo">
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="row mb-3">
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="First Name">
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="col-6">
+                <input type="email" class="form-control" placeholder="Email Address">
+              </div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Write your message here..."></textarea>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Please prove you're human:</label><br>
+              <!-- Simulated reCAPTCHA placeholder -->
+              <img src="./assets/cap.jpg" style="width: 50px; height: 50px;" alt="captcha">
+            </div>
+            <button type="submit" class="btn send-btn w-100">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Footer Section -->
+<footer class="footer-section text-white pt-5">
+    <div class="container">
+      <div class="row mb-4">
+        <!-- Contact Us -->
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">Contact Us</h5>
+          <p><i class="fas fa-map-marker-alt me-2"></i> Campsie 2194 NSW</p>
+          <p><i class="fas fa-phone me-2"></i> 0478 517 210</p>
+          <p><i class="fas fa-envelope me-2"></i> kmddemo210@gmail.com</p>
+          <p>ABN: 30 628 513 20</p>
+          <div class="social-icons mt-3">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Services</a></li>
+            <li><a href="#" class="footer-link">Gallery</a></li>
+            <li><a href="#" class="footer-link">Testimonials</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+  
+        <!-- About Us -->
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">About US</h5>
+          <p>We take pleasure in providing individual solutions with the highest levels of care, professionalism and an absolute commitment to safety.</p>
+          <p class="mt-3"><strong>5 Years</strong><br>Experience</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom py-3 text-center">
+      <p class="mb-0">Copyright © 2023 – KMD Demolition & Asbestos Removal. All Rights Reserved. Designed By <i class="fas fa-fire text-danger"></i></p>
+    </div>
+  </footer>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
